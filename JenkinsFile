@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-		echo 'Test for git PR'
+                echo 'Buindling test done'
             }
         }
         stage('Test') {
@@ -15,7 +15,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'deployment'
+                echo 'one more test code'
             }
         }
     }
